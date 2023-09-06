@@ -1,0 +1,74 @@
+:root {
+  --lightBlue: #b1d9db;
+  --lightGrayBorder: #c5c3c3;
+  --gray: #635c5c;
+  --blueGreen: #5ec5c8;
+  --light: #f5f5f5;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+.powderBlue {
+  background-color: var(--lightBlue);
+}
+.Silver {
+  background-color: var(--light);
+}
+.right {
+  border-radius: 60px 0 0 60px;
+  border-color: var(--lightGrayBorder);
+}
+
+input {
+  outline: 0;
+}
+img {
+  width: 50px;
+}
+input::placeholder {
+  font-size: 14px;
+  color: rgba(99, 92, 92, 0.6);
+  font-weight: 500;
+}
+.text-color,
+i {
+  color: rgba(99, 92, 92, 0.6);
+}
+.fontsz {
+  font-size: 10px;
+}
+.img {
+  width: 15px;
+  height: 15px;
+}
+.image {
+  width: 400px;
+  height: 400px;
+}
+.light {
+  background-color: var(--light);
+}
+.imggoogle {
+  top: 14px;
+  left: 14px;
+  width: 20px;
+  height: 20px;
+}
+.posi {
+  left: -380px;
+  top: 50%;
+  transform: translate(0, -50%);
+  z-index: 1000;
+}
+
+#account::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  top: 50%;
+  left: 0;
+  background-color: var(--light);
+}
